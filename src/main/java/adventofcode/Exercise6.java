@@ -19,6 +19,11 @@ public class Exercise6 extends AbstractExercise {
     }
 
     @Override
+    public String doExercisePart1() {
+        return null;
+    }
+
+    @Override
     public String doExercisePart2() {
         long times = extractValue(this.getDatasetAsLines().get(0));
         long distances = extractValue(this.getDatasetAsLines().get(1));

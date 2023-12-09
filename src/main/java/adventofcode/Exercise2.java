@@ -12,6 +12,11 @@ public class Exercise2 extends AbstractExercise {
     }
 
     @Override
+    public String doExercisePart1() {
+        return null;
+    }
+
+    @Override
     public String doExercisePart2() {
         return String.valueOf(getDatasetAsLines().stream().map(line -> {
             Map<String, Integer> gameSet = new HashMap<>();

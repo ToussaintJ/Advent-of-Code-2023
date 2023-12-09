@@ -13,6 +13,7 @@ public abstract class AbstractExercise {
         this.datasetAsLines = this.readFiles();
     }
 
+    public abstract String doExercisePart1();
     public abstract String doExercisePart2();
 
     public List<String> readFiles() throws IOException {

@@ -21,6 +21,11 @@ public class Exercise1 extends AbstractExercise {
     }
 
     @Override
+    public String doExercisePart1() {
+        return null;
+    }
+
+    @Override
     public String doExercisePart2() {
         return String.valueOf(this.getDatasetAsLines()
                 .stream()

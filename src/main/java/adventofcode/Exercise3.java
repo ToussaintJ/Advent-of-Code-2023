@@ -40,8 +40,15 @@ public class Exercise3 extends AbstractExercise {
             }
         }
         StringBuilder sb = new StringBuilder();
-        matrix.get(indexLine).subList(indexColumn + k + 1, indexColumn + l).forEach(sb::append);
+        matrix.get(indexLine)
+                .subList(indexColumn + k + 1, indexColumn + l)
+                .forEach(sb::append);
         return asList(indexColumn + k + 1, indexColumn + l, Integer.parseInt(sb.toString()), indexLine);
+    }
+
+    @Override
+    public String doExercisePart1() {
+        return null;
     }
 
     @Override
